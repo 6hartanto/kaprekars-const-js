@@ -47,6 +47,8 @@ const KaprekarsConstant = (number) => {
 
     output = parseInt(descInt - ascInt);
     count += 1;
+    //Show const in console log
+    console.log(output);
 
     if (output === 6174) {
       return (document.getElementById("output").innerHTML =
